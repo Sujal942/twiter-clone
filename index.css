@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #15202b;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    width: 80px;
+}
+.main{
+    display: flex;
+}
+.left{
+    width: 20%;
+    height: 100vh;
+    padding: 10px 30px;
+    padding-left: 60px;
+    cursor: pointer;
+    border-right: 1px solid gray;
+    
+}
+.lcon span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.lcon{
+    margin: 10px 0;
+    padding: 10px;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    width: 100%;
+    
+}
+.lcon:hover{
+    border-radius: 30px;
+    background: #72727248;
+}
+.b{
+    font-size: 20px;
+    padding: 14px 80px;
+    border: none;
+    background-color: #00ba7c;
+    border-radius: 30px;
+    font-weight: bold;
+}
+#c{
+    width: 80px;
+    border-radius: 50%;
+}
+.ic{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.p{
+    margin: 10px;
+}
+.ct{
+    display: flex;
+    flex-direction: column;
+}
+.middle{
+    width: 45%;
+    border-right: 1px solid gray;
+    
+}
+#q{
+    width: 70px;
+    border-radius: 50%;
+}
+.tweet{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.o{
+    margin: 20px;
+}
+.tnef{
+    margin: 0 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.right{
+    width: 23%;
+    padding: 10px 30px;
+}
+.right input{
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+}
+.k{
+    margin: 30px;
+}
